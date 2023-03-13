@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en-us" class="contacthtml">
+
+<head>
+	<title>USA Traveler Contact Us</title>
+	<meta name="description" content="This is the Contact Us page. This page 
+    provides different methods for contacting USA Traveler."/>
+	<meta name="keywords" content="Contact, contact, Contact Us, contact us, email, social media contact"/>
+    <meta name="author" content="Brian Oldham"/>
+	<meta name="copyright" content="USA Traveler"/>
+	<meta name="robots" content="index, follow"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta charset="UTF-8"/>
+	<!-- main style sheet -->
+	<link rel="stylesheet" href="css/style.css"/>
+	<!-- load a font awesome icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<!-- american flag favicon -->
+	<link rel="icon" href="imgs/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+
+<body class="contactbody">
+	<header>
+		<a href="index.html" class="logo">
+			<i class="fa fa-plane"> USA TRAVELER</i>
+		</a>
+		<div class="search">
+			<script async src="https://cse.google.com/cse.js?cx=e382bfc0d5b49a0ab"></script>
+			<div class="gcse-search"></div>
+		</div>
+		<!-- top navigation menu -->
+		<nav class="topnav">
+			<div class="icon">
+				<!-- hamburger menu for small screens -->
+				<a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			<div class="myLinks">
+				<a href="index.html">Home</a>
+				<a href="travel.html">Travel</a>
+				<a href="about-us.html">About Us</a>
+				<a href="contact-us.html">Contact Us</a>
+			</div>
+		</nav>
+	</header>
+
+    <h1 class="contacth1">CONTACT US</h1>
+    <article class="contactmain">
+        <section class="contactsection1">
+            <h2>Email Us</h2>
+            <p>
+                Please use the form below to email us with any questions or 
+                comments. Also feel free to make any suggestions for the site!
+            </p>
+            <form action="mailto:boldham1@student.umgc.edu" method="post" 
+            enctype="text/plain">
+                <fieldset class="field1">
+                    <legend>Personal Information</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" tabindex="1" placeholder="John" required>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" tabindex="2" placeholder="Smith" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" tabindex="3" placeholder="jsmith@gmail.com" required>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" tabindex="4" placeholder="555-862-1234">
+                    <label for="state">Home State:</label>
+                    <input type="text" id="state" name="state" tabindex="5" placeholder="Florida">
+                </fieldset>
+
+                <fieldset class="field2">
+                    <legend>How Did You Hear About Us:</legend>
+                    <select id="learn" name="learn" tabindex="6">
+                        <option value="internet">Internet</option>
+                        <option value="friend">Friend</option>
+                        <option value="socialmedia">Social Media</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="field3">
+                    <legend>Please Select Your Age:</legend>
+                    <input type="radio" id="age1" name="age" value="30" tabindex="7">
+                    <label for="age1">21 - 30</label><br>
+                    <input type="radio" id="age2" name="age" value="45">
+                    <label for="age2">31 - 45</label><br>  
+                    <input type="radio" id="age3" name="age" value="75">
+                    <label for="age3">46 - 75</label>
+                </fieldset>
+
+                <fieldset class="field4">
+                    <legend>Do You Live Within The United States:</legend>
+                    <input type="checkbox" id="yeslive" name="live" value="yes" tabindex="8">
+                    <label for="yeslive">YES</label><br>
+                    <input type="checkbox" id="nolive" name="live" value="no" tabindex="9">
+                    <label for="nolive">NO</label><br>
+                </fieldset>
+
+                <fieldset class="field5">
+                    <legend>Please enter your comments, questions, and suggestions below:</legend>
+                    <textarea name="message" id="message" cols="30" rows="10" tabindex="10"></textarea>
+                </fieldset>
+                <input type="submit" value="Submit" class="submit" tabindex="11">
+            </form>
+        </section>
+
+        <section class="contactsection2">
+            <h2>Social Media</h2>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa fa-facebook-official" aria-hidden="true"> Facebook</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa fa-instagram" aria-hidden="true"> Instagram</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.snapchat.com/" target="_blank">
+                        <i class="fa fa-snapchat-square" aria-hidden="true"> Snapchat</i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="fa fa-linkedin-square" aria-hidden="true">Linkedin</i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </article>
+
+	<footer>
+        <nav class="footer">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="travel.html">Travel</a></li>
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="contact-us.html">Contact Us</a></li>
+				<li><a href="privacy.html" target="_blank">Privacy</a></li>
+				
+			</ul>
+        </nav>
+		<form class="footerform" name="Tick">
+			<input type="text" size="12" name="Clock">
+		</form>
+    </footer>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
